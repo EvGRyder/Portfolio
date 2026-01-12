@@ -1,0 +1,34 @@
+html {
+    margin: auto;
+    padding: 0px;
+}
+
+body {
+    margin: auto;
+    padding: 0%;
+}
+
+main {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 100vh;
+}
+
+nav {
+    background-color: aliceblue;
+    flex-grow: 1;
+}
+
+section {
+    flex-grow: 4;
+    background-color: antiquewhite;
+}
+
+#dashboard {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
