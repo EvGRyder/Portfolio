@@ -25,6 +25,7 @@ main {
     flex-grow: 8;
     display: flex;
     flex-direction: column;
+    margin-bottom: 40px;
 }
 
 header {
@@ -67,9 +68,25 @@ section {
 }
 
 #announcements {
+    margin: 5px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+#announcements > div {
+    border: solid;
+    margin: 10px;
     flex-grow: 1;
 }
 
 #trending {
+    margin: 5px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+#trending > div {
+    border: solid;
+    margin: 10px;
     flex-grow: 1;
 }
